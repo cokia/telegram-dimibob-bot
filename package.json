@@ -1,0 +1,24 @@
+{
+  "name": "telegram-dimibob-bot",
+  "version": "1.0.0",
+  "main": "bin/app.js",
+  "scripts": {
+    "start": "node bin/app.js",
+    "serve": "rm -rf bin && tsc-watch -p . --onSuccess \"node .\"",
+    "prestart": "tsc"
+  },
+  "repository": "https://github.com/cokia/telegram-dimibob-bot",
+  "author": "hanu@cloudus.io",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^6.8.0",
+    "js-yaml": "^3.13.1",
+    "telebot": "^1.2.6"
+  },
+  "devDependencies": {
+    "@types/node": "^13.7.1",
+    "@types/telebot": "^1.2.1",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5"
+  }
+}
